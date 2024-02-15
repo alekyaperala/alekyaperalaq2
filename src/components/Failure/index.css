@@ -1,0 +1,28 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.failure-message {
+  font-size: 1.5rem;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.try-again-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.try-again-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,22 @@
+/* Add your CSS styles for the Repository component here */
+.repository-container {
+  margin-top: 20px;
+}
+
+.repository-list {
+  list-style: none;
+  padding: 0;
+}
+
+.repository-list-item {
+  margin-bottom: 10px;
+}
+
+.repository-list-item a {
+  color: #333;
+  text-decoration: none;
+}
+
+.repository-list-item a:hover {
+  text-decoration: underline;
+}
